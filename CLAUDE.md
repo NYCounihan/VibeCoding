@@ -28,7 +28,7 @@ Before responding to the user's first substantive request in any session, scan t
 
 Current placeholders:
 
-- `<SCREENSHOTS_FOLDER>` — absolute path to the user's screenshots folder. Common examples by OS: Windows under `Pictures\Screenshots` or `OneDrive\Pictures\Screenshots`; macOS `~/Desktop` or `~/Pictures/Screenshots`; Linux `~/Pictures/Screenshots`. Ask, do not guess.
+- `C:\Users\USERNAME\OneDrive\Pictures\Screenshots` — absolute path to the user's screenshots folder. Common examples by OS: Windows under `Pictures\Screenshots` or `OneDrive\Pictures\Screenshots`; macOS `~/Desktop` or `~/Pictures/Screenshots`; Linux `~/Pictures/Screenshots`. Ask, do not guess.
 
 This section can stay after configuration; it documents what was set.
 
@@ -106,13 +106,13 @@ For files inside the current repo, use repo-relative paths (`src/main.py`), not 
 
 ## Screenshots
 
-When the user says "screenshot," locate the most recent image in `<SCREENSHOTS_FOLDER>`, read it, and:
+When the user says "screenshot," locate the most recent image in `C:\Users\USERNAME\OneDrive\Pictures\Screenshots`, read it, and:
 
 1. Analyze the UI/UX
 2. Identify problems, bugs, or visual issues
 3. Suggest efficiency or usability improvements
 
-If `<SCREENSHOTS_FOLDER>` is still a literal placeholder, follow the "First-use setup" section above before proceeding.
+If `C:\Users\USERNAME\OneDrive\Pictures\Screenshots` is still a literal placeholder, follow the "First-use setup" section above before proceeding.
 
 ## Verification before reporting done
 
